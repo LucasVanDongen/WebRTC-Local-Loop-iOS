@@ -18,6 +18,7 @@
 		A0DE537720E924ED008D7DBF /* BasePeerConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE537620E924ED008D7DBF /* BasePeerConnectionDelegate.swift */; };
 		A0DE537A20E92B52008D7DBF /* ReceivingPeerConnectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DE537920E92B52008D7DBF /* ReceivingPeerConnectionDelegate.swift */; };
 		A0EFFEDF20E9723E00FCAED5 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EFFEDE20E9723E00FCAED5 /* VideoCapture.swift */; };
+		A0EFFEE120E97EF100FCAED5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A0EFFEE020E97EF100FCAED5 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		A0DE537620E924ED008D7DBF /* BasePeerConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePeerConnectionDelegate.swift; sourceTree = "<group>"; };
 		A0DE537920E92B52008D7DBF /* ReceivingPeerConnectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivingPeerConnectionDelegate.swift; sourceTree = "<group>"; };
 		A0EFFEDE20E9723E00FCAED5 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		A0EFFEE020E97EF100FCAED5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		A0DE533E20E6C65E008D7DBF = {
 			isa = PBXGroup;
 			children = (
+				A0EFFEE020E97EF100FCAED5 /* README.md */,
 				A0DE536D20E6CDF4008D7DBF /* WebRTCLocalLoop-Bridging-Header.h */,
 				A0DE535C20E6C7D8008D7DBF /* Frameworks */,
 				A0DE534920E6C65E008D7DBF /* WebRTCLocal */,
@@ -182,6 +185,7 @@
 			files = (
 				A0DE535520E6C65F008D7DBF /* LaunchScreen.storyboard in Resources */,
 				A0DE535220E6C65F008D7DBF /* Assets.xcassets in Resources */,
+				A0EFFEE120E97EF100FCAED5 /* README.md in Resources */,
 				A0DE535020E6C65E008D7DBF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
