@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebRTCLocalTest/ViewController.swift"
+            timestampString = "552172372.9656579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebRTCLocalTest/ViewController.swift"
+            timestampString = "552172372.96636"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "videoView"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WebRTCLocalTest.ViewController.videoView.getter : __ObjC.RTCVideoRenderer"
+                  moduleName = "WebRTCLocalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas/Library/Mobile%20Documents/com~apple~CloudDocs/Projects/WebRTCLocalTest/WebRTCLocalTest/ViewController.swift"
+                  timestampString = "552168410.147957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __ObjC.RTCVideoRenderer in WebRTCLocalTest.ViewController.videoView.getter : __ObjC.RTCVideoRenderer"
+                  moduleName = "WebRTCLocalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas/Library/Mobile%20Documents/com~apple~CloudDocs/Projects/WebRTCLocalTest/WebRTCLocalTest/ViewController.swift"
+                  timestampString = "552168410.14947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WebRTCLocalTest.ViewController.videoView.setter : __ObjC.RTCVideoRenderer"
+                  moduleName = "WebRTCLocalTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lucas/Library/Mobile%20Documents/com~apple~CloudDocs/Projects/WebRTCLocalTest/WebRTCLocalTest/ViewController.swift"
+                  timestampString = "552168410.15105"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WebRTCLocalTest/ViewController.swift"
+            timestampString = "552172372.966634"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "videoView(_:didChangeVideoSize:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

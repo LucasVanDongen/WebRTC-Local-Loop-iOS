@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WebRTCLocalTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Sx-Vb-Hsr">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GZ3-pl-kVH" userLabel="Video Sizer">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="GZ3-pl-kVH" secondAttribute="bottom" priority="750" id="0bR-z7-jnL"/>
+                                    <constraint firstItem="GZ3-pl-kVH" firstAttribute="centerY" secondItem="6Sx-Vb-Hsr" secondAttribute="centerY" id="6nK-dE-qlz"/>
+                                    <constraint firstAttribute="trailing" secondItem="GZ3-pl-kVH" secondAttribute="trailing" priority="750" id="QNj-9c-Xmr"/>
+                                    <constraint firstItem="GZ3-pl-kVH" firstAttribute="leading" secondItem="6Sx-Vb-Hsr" secondAttribute="leading" priority="750" id="e1k-LP-V4D"/>
+                                    <constraint firstItem="GZ3-pl-kVH" firstAttribute="centerX" secondItem="6Sx-Vb-Hsr" secondAttribute="centerX" id="fLv-9c-IXX"/>
+                                    <constraint firstItem="GZ3-pl-kVH" firstAttribute="top" secondItem="6Sx-Vb-Hsr" secondAttribute="top" priority="750" id="wxm-w2-qVr"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remote" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QzO-fG-R8K">
+                                <rect key="frame" x="158" y="28" width="59" height="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.24647718560000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SKX-4i-7CG" customClass="RTCCameraPreviewView">
+                                <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Local" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2RP-UN-0Dt">
+                                <rect key="frame" x="167" y="638" width="41" height="21"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.24647718558282208" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Sx-Vb-Hsr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="2Qq-D6-9tT"/>
+                            <constraint firstItem="SKX-4i-7CG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="674-Li-KIg"/>
+                            <constraint firstItem="6Sx-Vb-Hsr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6es-Qh-81t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SKX-4i-7CG" secondAttribute="trailing" id="AHC-HH-p2q"/>
+                            <constraint firstItem="2RP-UN-0Dt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JA9-ue-BO2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2RP-UN-0Dt" secondAttribute="bottom" constant="8" id="KHk-JZ-its"/>
+                            <constraint firstAttribute="bottom" secondItem="SKX-4i-7CG" secondAttribute="bottom" id="TFg-ar-FoM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Sx-Vb-Hsr" secondAttribute="trailing" id="Vfx-lS-xoa"/>
+                            <constraint firstItem="QzO-fG-R8K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="Y3W-oC-8K7"/>
+                            <constraint firstItem="QzO-fG-R8K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zsk-Xg-llT"/>
+                            <constraint firstItem="SKX-4i-7CG" firstAttribute="top" secondItem="6Sx-Vb-Hsr" secondAttribute="bottom" id="pkn-w3-fhw"/>
+                            <constraint firstItem="SKX-4i-7CG" firstAttribute="height" secondItem="6Sx-Vb-Hsr" secondAttribute="height" id="rY3-BL-qbL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="localVideo" destination="SKX-4i-7CG" id="HJm-vH-zwG"/>
+                        <outlet property="remoteVideo" destination="6Sx-Vb-Hsr" id="33A-Xd-67v"/>
+                        <outlet property="videoSizer" destination="GZ3-pl-kVH" id="heR-xu-DJM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
